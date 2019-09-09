@@ -1,0 +1,167 @@
+.exam_creator
+{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+.ce_exam_name
+{
+    font-size: 24px;
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+}
+
+textarea[class="ce_exam_name"], textarea[class="new_question_content"],
+textarea[class="new_radio_answer"], textarea[class="new_checkbox_answer"]
+{
+    text-align: left;
+    outline: none;
+    overflow: hidden;
+    height: 21px;
+    resize: none;
+}
+
+textarea[class="ce_exam_name"]
+{
+    text-align: center;
+    height: 35px;
+}
+
+.new_question_content
+{
+    font-weight: bold;
+    white-space: pre-line
+}
+
+.new_question_answers
+{
+    margin: 15px;
+}
+
+#answer_textarea
+{
+    margin: 5px;
+    width: calc(100% - 30px);
+    height: 5rem;
+    max-height: 5rem;
+    resize: none;
+}
+
+.question_options_btn
+{
+    float: right;
+    margin-right: 40px;
+    border: none;
+    background: transparent;
+    background-image: url(../images/options_menu_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+}
+
+.question_dropdown_menu
+{
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 40px;
+    float: right;
+    right: 23px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+    z-index: 1;
+    display: none;
+}
+
+.question_dropdown_menu button
+{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.question_dropdown_menu button:hover
+{
+    background-color: #f0f5f7;
+}
+
+.question_menu_arrow-up
+{
+    position: absolute;
+    top: -8px;
+    right: 18px;
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+    background: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(240, 245, 247);
+    border-image: initial;
+    z-index: -1;
+}
+
+.add_new_radio_answer_btn, .add_new_checkbox_answer_btn
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #0098d3;
+    transition: background-color .5s ease;
+}
+
+.add_new_radio_answer_btn:hover, .add_new_checkbox_answer_btn:hover
+{
+    background-color: #57c6f3;
+}
+
+#exam_creator_bottom_bar
+{
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+#exam_creator_bottom_bar button
+{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    min-width: 150px;
+    transition: background-color .5s ease;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+#exam_creator_bottom_bar button[id="save_exam_btn"]
+{
+    float: right;
+}
+
+#exam_creator_bottom_bar button:hover
+{
+    background-color: #0098d3;
+}

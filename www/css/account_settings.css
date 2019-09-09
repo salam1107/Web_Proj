@@ -1,0 +1,103 @@
+.account_settings
+{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+#settings_title
+{
+    font-size: 24px;
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+}
+
+.settings_section
+{
+    display: flex;
+    margin-top: 40px;
+}
+
+.settings_section .left
+{
+    width: 35%;
+    float: left;
+}
+
+.settings_section .right
+{
+    width: 65%;
+    float: right;
+    padding-left: 30px;
+    padding-right: 20%;
+}
+
+#settings_subtitle
+{
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.settings_section .right span
+{
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    margin-top: 9px;
+}
+
+.settings_section .right input
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(248, 250, 251);
+    text-indent: 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 4px;
+    border: 1px solid rgb(212, 227, 235);
+}
+
+.settings_section .right button
+{
+    width: 180px;
+    height: 40px;
+    margin-left: calc(100% - 180px);
+    float: right;
+    margin-top: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    background-color: #0098d3;
+    transition: background-color .5s ease;
+}
+
+.settings_section .right button:hover
+{
+    background-color: #2fb7ec;
+}
+
+.warning_msg
+{
+    float: right;
+    color: red;
+}
+
+.warning_msg label
+{
+    color: black;
+}
+
+.warning_msg img
+{
+    width: 20px;
+}

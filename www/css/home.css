@@ -1,0 +1,67 @@
+#page_content
+{
+    position: relative;
+    top: 130px;
+    width: 60%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#loading
+{
+    position: relative;
+    top: 130px;
+    margin: 0 auto;
+    display: table;
+}
+
+.exam
+{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+.publisher_name
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.publisher_name:hover
+{
+    text-decoration: underline; 
+}
+
+#exam_name
+{
+    margin-left: 15px;
+    font-style: italic;
+}
+
+#exam_bottom_bar
+{
+    height: 40px;
+}
+
+#exam_bottom_bar button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 13px;
+    height: 100%;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #0098d3;
+    transition: background-color .5s ease;
+}
+
+#exam_bottom_bar button:hover
+{
+    background-color: #2fb7ec;
+}

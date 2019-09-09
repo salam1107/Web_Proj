@@ -1,0 +1,102 @@
+.exam_settings
+{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+}
+
+#exam_settings_title
+{
+    font-size: 24px;    
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+}
+
+#exam_info
+{ 
+    margin-top: 30px;
+    display: flex;
+}
+
+#exam_info #left
+{
+    width: 50%;
+    float: left;
+}
+
+#exam_info #left span
+{
+    float: right;
+    font-weight: bold;
+    line-height: 30px;
+    margin-right: 10px;
+    display: grid;
+}
+
+#exam_info #right
+{
+    width: 50%;
+    float: right;
+}
+
+#exam_info #right span
+{
+    margin-left: 10px;
+    line-height: 30px;
+    display: grid;
+}
+
+#exam_info #right span[id="status"]
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+#isPublish_dot
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#exam_settings_bottom_bar
+{
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px;
+    text-align: center;
+}
+
+#exam_settings_bottom_bar button
+{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    min-width: 150px;
+    transition: background-color .5s ease;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+#exam_settings_bottom_bar button
+{
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    min-width: 150px;
+    transition: background-color .5s ease;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+#exam_settings_bottom_bar button:hover
+{
+    background-color: #0098d3;
+}
